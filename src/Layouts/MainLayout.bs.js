@@ -4,7 +4,6 @@ import * as React from "react";
 import * as Navbar from "../Components/Navbar/Navbar.bs.js";
 
 function MainLayout(props) {
-  console.log("test: manlayout");
   return React.createElement("main", {
               className: "w-full h-full"
             }, React.createElement(Navbar.make, {}), props.children);

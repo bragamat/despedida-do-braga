@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @import "./_fonts.css";
-body {
-  @apply font-sans bg-white;
-}
 
+@layer base {
+  body {
+    @apply w-screen h-screen;
+  }
+
+  div#__next {
+    @apply h-full w-full;
+  }
+}

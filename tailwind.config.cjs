@@ -64,7 +64,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: "var(--font-family-sans)",
+        mulish: ['Mulish', 'sans-serif'],
       },
       spacing: {
         13: "3.25rem",

@@ -8,6 +8,10 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "cypress",
+      "subdirs": true
     }
   ],
   "package-specs": {

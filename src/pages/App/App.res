@@ -25,7 +25,7 @@ let make = (props: props): React.element => {
   let router = Router.useRouter()
 
   switch router.route {
-  | "/depedida" => content
+  | "/despedida" => content
   | _ => <MainLayout> content </MainLayout>
   }
 }

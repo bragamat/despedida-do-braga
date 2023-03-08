@@ -6,8 +6,16 @@ import * as BlackEmptyLayout from "../../Layouts/BlackEmptyLayout/BlackEmptyLayo
 function $$default(param) {
   console.log("test: component");
   return React.createElement(BlackEmptyLayout.make, {
-              children: "Pag despedida"
-            });
+              children: null
+            }, React.createElement("h2", {
+                  className: "text-2xl"
+                }, "MINHA DESPEDIDA DE SOLTEIRO"), React.createElement("h2", {
+                  className: "text-2xl"
+                }, "DIA: 11/03/23"), React.createElement("h2", {
+                  className: "text-2xl"
+                }, "HORARIO: 15:00"), React.createElement("h2", {
+                  className: "text-2xl"
+                }, "LOCAL: TATUAPE"));
 }
 
 export {

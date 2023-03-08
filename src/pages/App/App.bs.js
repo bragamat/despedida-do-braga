@@ -8,7 +8,7 @@ function make(props) {
   var content = React.createElement(props.Component, props.pageProps);
   var router = Router.useRouter();
   var match = router.route;
-  if (match === "/depedida") {
+  if (match === "/despedida") {
     return content;
   } else {
     return React.createElement(MainLayout.make, {
