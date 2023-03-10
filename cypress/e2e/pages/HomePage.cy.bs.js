@@ -4,11 +4,12 @@ import * as Cypress from "../../bindings/Cypress/Cypress.bs.js";
 
 Cypress.describe("Root path", (function (param) {
         Cypress.it("/ shows bachelors party details", (function (param) {
-                cy.visit("/despedida", undefined);
-                cy.contains(undefined, "CHEGOU MINHA DESPEDIDA DE SOLTEIRO", undefined);
+                cy.visit("/", undefined);
+                cy.contains(undefined, "DESPEDIDA DE SOLTEIRO DO BRAGA", undefined);
                 cy.contains(undefined, "DIA: 11/03/23", undefined);
-                cy.contains(undefined, "LOCAL: ", undefined);
-                cy.contains(undefined, "HORARIO: 15:00", undefined);
+                cy.contains(undefined, "LOCAL: Rancho Urbano Rua Azevedo Soares, 604 - Vila Gomes Cardim", undefined);
+                cy.contains(undefined, "HORARIO: 16:00", undefined);
+                cy.contains(undefined, "TEM VALLET NO LOCAL", undefined);
               }));
       }));
 

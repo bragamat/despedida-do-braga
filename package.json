@@ -1,7 +1,7 @@
 {
-  "name": "rescript-nextjs-template",
+  "name": "despedida-do-braga",
   "version": "1.0.0",
-  "author": "Patrick Ecker <ryyppy@users.noreply.github.com>",
+  "author": "Mateus Braga",
   "license": "Apache-2.0",
   "type": "module",
   "dependencies": {
@@ -9,10 +9,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rescript": "^10.1.3",
-    "cypress:run": "cypress run",
-    "cypress:open": "cypress open"
+    "@rescript/react": "^0.11.0"
   },
-  "repository": "https://github.com/ryyppy/rescript-nextjs-template",
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
     "res": "rescript build -with-deps -w",
@@ -30,7 +28,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
-    "@rescript/react": "^0.11.0",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",

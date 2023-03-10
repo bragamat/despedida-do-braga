@@ -5,16 +5,19 @@ let default = () => {
 
   <BlackEmptyLayout>
     <h2 className="text-2xl">
-    { "MINHA DESPEDIDA DE SOLTEIRO" -> s }
+    { "DESPEDIDA DE SOLTEIRO DO BRAGA" -> s }
     </h2>
     <h2 className="text-2xl">
     { "DIA: 11/03/23" -> s }
     </h2>
     <h2 className="text-2xl">
-    { "HORARIO: 15:00" -> s }
+    { "HORARIO: 16:00" -> s }
     </h2>
     <h2 className="text-2xl">
-    { "LOCAL: TATUAPE" -> s }
+    { "LOCAL: Rancho Urbano Rua Azevedo Soares, 604 - Vila Gomes Cardim" -> s }
+    </h2>
+    <h2 className="text-2xl text-blue-900">
+    { "TEM VALLET NO LOCAL" -> s }
     </h2>
   </BlackEmptyLayout>
 }

@@ -6,7 +6,7 @@ function BlackEmptyLayout(props) {
   return React.createElement("main", {
               className: "w-full h-full flex flex-col items-center justify-center\n  bg-black text-white relative"
             }, React.createElement("section", {
-                  className: "z-10 space-y-4 p-4 border-2 border-rose-500"
+                  className: "z-10 space-y-4 p-4 border-2 border-rose-500 border-r-indigo-500"
                 }, props.children));
 }
 

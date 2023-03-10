@@ -2,7 +2,7 @@
 // If you are using getServerSideProps or getStaticProps, you probably
 // will never need this
 // See https://nextjs.org/docs/advanced-features/custom-app
-module Router = Next.Router
+/* module Router = Next.Router */
 type pageProps
 
 module PageComponent = {
@@ -22,10 +22,11 @@ let make = (props: props): React.element => {
   let {component, pageProps} = props
 
   let content = React.createElement(component, pageProps)
-  let router = Router.useRouter()
+  /* let router = Router.useRouter() */
 
-  switch router.route {
-  | "/despedida" => content
-  | _ => <MainLayout> content </MainLayout>
-  }
+  content
+  /* switch router.route { */
+  /* | "/despedida" => content */
+  /* | _ => <MainLayout> content </MainLayout> */
+  /* } */
 }

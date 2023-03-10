@@ -1,4 +1,4 @@
-import IndexRes from "src/pages/Index.bs.js";
+import IndexRes from "src/pages/Despedida/Despedida.bs.js";
 
 // Note:
 // We need to wrap the make call with

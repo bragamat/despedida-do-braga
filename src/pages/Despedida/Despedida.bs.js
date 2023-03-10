@@ -9,13 +9,15 @@ function $$default(param) {
               children: null
             }, React.createElement("h2", {
                   className: "text-2xl"
-                }, "MINHA DESPEDIDA DE SOLTEIRO"), React.createElement("h2", {
+                }, "DESPEDIDA DE SOLTEIRO DO BRAGA"), React.createElement("h2", {
                   className: "text-2xl"
                 }, "DIA: 11/03/23"), React.createElement("h2", {
                   className: "text-2xl"
-                }, "HORARIO: 15:00"), React.createElement("h2", {
+                }, "HORARIO: 16:00"), React.createElement("h2", {
                   className: "text-2xl"
-                }, "LOCAL: TATUAPE"));
+                }, "LOCAL: Rancho Urbano Rua Azevedo Soares, 604 - Vila Gomes Cardim"), React.createElement("h2", {
+                  className: "text-2xl text-blue-900"
+                }, "TEM VALLET NO LOCAL"));
 }
 
 export {
